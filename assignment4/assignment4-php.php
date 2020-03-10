@@ -155,7 +155,7 @@ function reloadForm() {
       "<?php echo $tax;?>"
       ></dt>
     <dt>Total: <input type="text" readonly="true" name="total" size="10" value=
-      "$<?php echo number_format((float)$total, 2, '.', '');?>"
+      "<?php echo number_format((float)$total, 2, '.', '');?>"
       ></dt>
   </dl>
 </div>
